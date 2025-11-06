@@ -3,7 +3,6 @@
 # Created Nov 5, 2025
 
 class Cipher:
-    
     '''
     # defining cipher class for encryption and decryption
     # blueprint for creating Cipher objects that performs two functions: 
@@ -52,6 +51,7 @@ class Cipher:
         '''# creating history log attribute 
            # will store all encrypted and decrypted messages 
            # initializing it with empty list 
+        '''
     
            
 
