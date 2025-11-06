@@ -54,10 +54,17 @@ class Cipher:
     '''
 
     def encrypt(self, message):
-        '''
-            Takes a plain-text message and returns an excrypted message.
-        '''
-        pass # Encrypt and return a string here
+        '''Takes a plain-text message and returns an excrypted message.'''
+        # defining method called encrypt for cipher class that takes one argument- message 
+        # each letter shifts forward by __shifts
+        # non cyrillic alphabet characters remain as is/unchanged 
+        # case sensitivity is decided based on user in _case_sensitive T/F selection
+
+        encrypted = [] # initializng empty list where encrytped message will go 
+        for char in message: # looping through each character in message 
+            
+            
+       
 
     def decrypt(self, message):
         '''
