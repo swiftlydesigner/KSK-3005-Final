@@ -13,7 +13,7 @@ import Cipher
 
 def main():
     # Code starts here
-    cipher = Chipher.Cipher()
+    cipher = Cipher.Cipher()
     cipher.encrypt("")
     cipher.decrypt("")
     pass
