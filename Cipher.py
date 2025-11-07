@@ -2,6 +2,10 @@
 # This class will be responsible for encryption and decryption.
 # Created Nov 5, 2025
 
+# Cipher.py
+# This class will be responsible for encryption and decryption.
+# Created Nov 5, 2025
+
 class Cipher:
     # defining cipher class for encryption and decryption
     # blueprint for creating Cipher objects that performs two functions: 
@@ -224,8 +228,7 @@ class Cipher:
                 
                 print("-" * 40)
                 
-                
-                
+
 # test example 
 
 cipher = Cipher(shift = 5, case_sensitive = True)
@@ -241,10 +244,3 @@ print("\n")
 
 print("*** History Ops Log ***\n")
 cipher.show_history()
-              
-                
-                
-                
-                
-                
-        
